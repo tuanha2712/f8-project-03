@@ -75,16 +75,72 @@
         />
         <link rel="manifest" href="./assets/favicon/manifest.json" />
         <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
         <meta name="theme-color" content="#ffffff" />
         <!-- css -->
-        <link rel="stylesheet" href="style.css" />
+        <!-- reset css -->
         <link rel="stylesheet" href="assets/css/reset.css" />
-        <link rel="stylesheet" href="./assets/css/style.css" />
-        <link rel="stylesheet" href="assets/fonts/stylesheet.css" />
+        <!-- style css -->
+        <link rel="stylesheet" href="/assets/css/style.css" />
+        <!-- link font style sheet -->
+        <link rel="stylesheet" href="/assets/fonts/stylesheet.css" />
+        <!-- title -->
         <title>Shine Smile</title>
     </head>
     <body>
-        <h1>ha tuan ngoc</h1>
+        <header class="header">
+            <div class="container">
+                <div class="header-top">
+                    <a href="">
+                        <div class="logo">
+                            <div class="logo__image"></div>
+                            <div class="logo-text">
+                                <span class="logo-text__content">shine</span>
+                                <span
+                                    class="logo-text__content logo-text__content--small"
+                                    >smile</span
+                                >
+                            </div>
+                        </div>
+                    </a>
+                    <nav class="nav-bar">
+                        <a class="nav-bar__link" href="#!">Home </a>
+                        <a class="nav-bar__link" href="#!">Services</a>
+                        <a class="nav-bar__link" href="#!">About</a>
+                        <a class="nav-bar__link" href="#!">Doctors</a>
+                    </nav>
+                    <div class="action">
+                        <a href="#!" class="action__btn--login">Log In</a>
+                        <a href="#!" class="btn action__btn--signup">Sign Up</a>
+                    </div>
+                </div>
+                <section class="hero">
+                    <section class="hero-info">
+                        <h1 class="hero-info__heading">
+                            Exceptional dental care for all ages.
+                        </h1>
+                        <p class="hero-info__desc">
+                            Exceptional dental care for all ages. Your great
+                            smile begins with a great dentist.
+                        </p>
+                        <div class="hero-info__cta">
+                            <a class="btn cta__link cta__link--click" href="#!">Book Online</a>
+                            <a class="cta__link" href="">or call (123) 456-7890</a>
+                        </div>
+                    </section>
+                    <div class="hero-box">
+                        <figcaption class="hero-box__hero-banner">
+                            <img class="hero-banner_img" src="./assets/img/hero/lovepik-the-image-of-doctors-and-patients-in-dental-picture_501802460.jpg" alt="" />
+                            <img class="hero-banner_img--small" src="./assets/img/hero/bjur.jpg" alt="" />
+                        </figcaption>
+                    </div>
+                </section>
+            </div>
+        </header>
+        <main class="main"></main>
+        <footer class="footer"></footer>
     </body>
 </html>
